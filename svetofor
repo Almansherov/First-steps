@@ -1,0 +1,17 @@
+from time import sleep
+i = 0
+status=True
+
+while status:
+	sleep(5)
+	print("Now Red")
+	sleep(5)
+	print("Now Yellow")
+	sleep(5)
+	print("Now Green")
+	sleep(5)
+	print(i)
+	print("Now Yellow")
+	i+= 1
+	if i == 5 :
+		status=False
