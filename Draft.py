@@ -8,8 +8,8 @@
 
 #1
 def task_one():
-    a = input("Please, enter the first number: ")
-    b = input("And the second one: ")
+    a = input()
+    b = input()
     print("So, now we are gonna change their positions. ")
 
     print("look, right now your first input is a: " + str(a))
